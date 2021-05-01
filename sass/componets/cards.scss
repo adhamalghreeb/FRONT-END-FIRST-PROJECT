@@ -1,0 +1,97 @@
+.box{
+    padding: 1rem 4rem;
+    position: relative;
+    flex-basis: 46%;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 2rem 4rem rgba($color-black, .15);
+    &-1{
+        background-color: white;
+        flex-grow: 1;
+    }
+    &-2{
+        background-color: #641bff;
+        margin-bottom: -1.5rem;
+        margin-top: -1.5rem;
+    }
+    &-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-price{
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-direction: row;
+            .dolar{
+                font-size: 2.3rem;
+                font-weight: 800;
+                position: absolute;
+                top: 5.2rem;
+                left: 9rem;
+            }
+            .per-month{
+                position: absolute;
+                font-size: 1.3rem;
+                font-weight: 800;
+                top: 9rem;
+                left: 17.5rem;
+            }
+            &__months{
+                align-self: flex-end;
+            }
+        }
+        &__para{
+            font-size: 1.5rem;
+        }
+        &__para-purple{
+            font-size: 1.5rem;
+            margin-bottom: 2.62rem;
+        }
+        .popular-txt{
+            font-size: 1.5rem;
+            font-weight: 800;
+            position: absolute;
+            top: 0.5rem;
+            left: 7.8rem;
+            right: 0.5rem;
+        }
+    }
+    &-div {
+        height: 1px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .2);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    &-div__white{
+        height: 1px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    &-body{
+        &__list{
+            margin-top: 2.5rem;
+            margin-left: 1.5rem;
+            &-elment{
+                padding-bottom: 0.8rem;
+                display: flex;
+                font-size: 1.4rem;
+                .elment-through{
+                    text-decoration: line-through;
+                }
+            }
+            &-elment-grey{
+                color: #999;
+                padding-bottom: 0.8rem;
+                display: flex;
+                font-size: 1.4rem;
+                .elment-through{
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

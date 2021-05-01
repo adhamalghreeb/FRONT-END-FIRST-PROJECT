@@ -1,0 +1,35 @@
+.btn{
+    &,
+    &:link , 
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 0.5rem;
+        position: relative;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    &--burple{
+        background-color: #641bff;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 800;
+        width: 100%;
+    }
+    &--white{
+        background-color: rgb(255, 255, 255);
+        color:#641bff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 800;
+        width: 100%;
+    }
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+}
